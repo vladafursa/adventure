@@ -1,0 +1,3 @@
+branch0#You decided to go to the forest. The weather is brilliant: the sun is shining, birds are singing. Suddenly you hear somebody screaming for help.
+help#You find out that a troll was trying to capture a child. You screamed at troll and started fighting. After that you went further and saw a nice place.
+stay#You decided to stay and have a rest. Suddenly you fell asleep. When you woke up, you smelled a smoke. You flashed to know from where it is. You saw a tree all on fire.

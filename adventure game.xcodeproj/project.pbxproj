@@ -7,7 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60033CB229BC112E0056C51C /* character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60033CB029BC112E0056C51C /* character.cpp */; };
+		6005195C29D516B000978FA9 /* enemyVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6005195A29D516B000978FA9 /* enemyVector.cpp */; };
+		6012A0C629D0C803007BB3BA /* item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6012A0C429D0C803007BB3BA /* item.cpp */; };
+		603BA5FA29C7EC44007E25AE /* enemy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 603BA5F829C7EC44007E25AE /* enemy.cpp */; };
 		60BDED2429B56FEE00E33AB7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BDED2329B56FEE00E33AB7 /* main.cpp */; };
+		60BDED2C29B5700200E33AB7 /* Gameplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60BDED2A29B5700200E33AB7 /* Gameplay.cpp */; };
+		60C33B9829D32DC000666DD2 /* itemVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C33B9629D32DC000666DD2 /* itemVector.cpp */; };
+		60DACEC529D2520F005D2B66 /* Scenario.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DACEC329D2520F005D2B66 /* Scenario.cpp */; };
+		60DACEC829D25251005D2B66 /* ScenarioVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DACEC629D25251005D2B66 /* ScenarioVector.cpp */; };
+		60DED67929BD5EAF00AA845D /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60DED67729BD5EAF00AA845D /* player.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +32,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		60033CB029BC112E0056C51C /* character.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = character.cpp; sourceTree = "<group>"; };
+		60033CB129BC112E0056C51C /* character.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = character.hpp; sourceTree = "<group>"; };
+		6005195A29D516B000978FA9 /* enemyVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = enemyVector.cpp; sourceTree = "<group>"; };
+		6005195B29D516B000978FA9 /* enemyVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = enemyVector.hpp; sourceTree = "<group>"; };
+		6012A0C429D0C803007BB3BA /* item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = item.cpp; sourceTree = "<group>"; };
+		6012A0C529D0C803007BB3BA /* item.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = item.hpp; sourceTree = "<group>"; };
+		603BA5F829C7EC44007E25AE /* enemy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = enemy.cpp; path = "adventure game/enemy.cpp"; sourceTree = "<group>"; };
+		603BA5F929C7EC44007E25AE /* enemy.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = enemy.hpp; path = "adventure game/enemy.hpp"; sourceTree = "<group>"; };
 		60BDED2029B56FEE00E33AB7 /* adventure game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "adventure game"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BDED2329B56FEE00E33AB7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		60BDED2A29B5700200E33AB7 /* Gameplay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gameplay.cpp; sourceTree = "<group>"; };
+		60BDED2B29B5700200E33AB7 /* Gameplay.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gameplay.hpp; sourceTree = "<group>"; };
+		60C33B9629D32DC000666DD2 /* itemVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = itemVector.cpp; sourceTree = "<group>"; };
+		60C33B9729D32DC000666DD2 /* itemVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = itemVector.hpp; sourceTree = "<group>"; };
+		60DACEC329D2520F005D2B66 /* Scenario.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scenario.cpp; sourceTree = "<group>"; };
+		60DACEC429D2520F005D2B66 /* Scenario.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scenario.hpp; sourceTree = "<group>"; };
+		60DACEC629D25251005D2B66 /* ScenarioVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ScenarioVector.cpp; sourceTree = "<group>"; };
+		60DACEC729D25251005D2B66 /* ScenarioVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ScenarioVector.hpp; sourceTree = "<group>"; };
+		60DED67729BD5EAF00AA845D /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		60DED67829BD5EAF00AA845D /* player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +68,14 @@
 		60BDED1729B56FEE00E33AB7 = {
 			isa = PBXGroup;
 			children = (
+				6012A0C429D0C803007BB3BA /* item.cpp */,
+				6012A0C529D0C803007BB3BA /* item.hpp */,
+				603BA5F829C7EC44007E25AE /* enemy.cpp */,
+				603BA5F929C7EC44007E25AE /* enemy.hpp */,
+				60DED67729BD5EAF00AA845D /* player.cpp */,
+				60DED67829BD5EAF00AA845D /* player.hpp */,
+				60033CB029BC112E0056C51C /* character.cpp */,
+				60033CB129BC112E0056C51C /* character.hpp */,
 				60BDED2229B56FEE00E33AB7 /* adventure game */,
 				60BDED2129B56FEE00E33AB7 /* Products */,
 			);
@@ -58,6 +93,16 @@
 			isa = PBXGroup;
 			children = (
 				60BDED2329B56FEE00E33AB7 /* main.cpp */,
+				6005195A29D516B000978FA9 /* enemyVector.cpp */,
+				6005195B29D516B000978FA9 /* enemyVector.hpp */,
+				60C33B9629D32DC000666DD2 /* itemVector.cpp */,
+				60C33B9729D32DC000666DD2 /* itemVector.hpp */,
+				60DACEC629D25251005D2B66 /* ScenarioVector.cpp */,
+				60DACEC729D25251005D2B66 /* ScenarioVector.hpp */,
+				60DACEC329D2520F005D2B66 /* Scenario.cpp */,
+				60DACEC429D2520F005D2B66 /* Scenario.hpp */,
+				60BDED2A29B5700200E33AB7 /* Gameplay.cpp */,
+				60BDED2B29B5700200E33AB7 /* Gameplay.hpp */,
 			);
 			path = "adventure game";
 			sourceTree = "<group>";
@@ -119,7 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603BA5FA29C7EC44007E25AE /* enemy.cpp in Sources */,
+				6005195C29D516B000978FA9 /* enemyVector.cpp in Sources */,
+				60DACEC529D2520F005D2B66 /* Scenario.cpp in Sources */,
+				60C33B9829D32DC000666DD2 /* itemVector.cpp in Sources */,
+				60DACEC829D25251005D2B66 /* ScenarioVector.cpp in Sources */,
+				60DED67929BD5EAF00AA845D /* player.cpp in Sources */,
+				6012A0C629D0C803007BB3BA /* item.cpp in Sources */,
 				60BDED2429B56FEE00E33AB7 /* main.cpp in Sources */,
+				60BDED2C29B5700200E33AB7 /* Gameplay.cpp in Sources */,
+				60033CB229BC112E0056C51C /* character.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

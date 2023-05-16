@@ -1,0 +1,5 @@
+troll#1#100#35
+creature#2#100#40
+snake#1#50#10
+ogre#3#5#25
+hunter#2#90#50

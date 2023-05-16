@@ -1,0 +1,33 @@
+branch0#You decided to go to the forest. The weather is brilliant: the sun is shining, birds are singing. Suddenly you hear somebody screaming for help.#Will you help or not?#help#ignore#0#0#0#0###
+help# You find out that a troll was trying to capture a child. You screamed at troll and started fighting. After that you went further and saw a nice place.#Will you stay here or continue your way?#stay#continue#0#50#0#30#poition#troll
+stay#You decided to stay and have a rest. Suddenly you fell asleep. When you woke up, you smelled a smoke. You flashed to know from where it is. You saw a tree all on fire.#Will you extinguish fire or not?#extinguish the fire#run away#0#0#0#0#raincoat##
+extinguish the fire#You decided to extinguish the fire.#Will you use your raincoat or earth?#raincoat#earth#0#0#5#0###
+raincoat#You used your raincoat, but it was made from flammable material. As a result you got burns incompatible with life.####0#0#0#0###
+earth#You used earth to extinguish the fire. It was hard, but you did it. You came out from the forest. There was a village near it. People saw a smog. They thanked you for extinguishing the fire. You became a hero for this village. You won the game!####0#0#0#50###
+run away#You ran away, but you tripped and fell down, the leg is hurt. Then you were walking very slowly and saw a strange creature. It didn't seem to behave friendly#Will you attack it or calm down?#attack#calm down#0#-30#0#0###
+attack#You attacked this creature, it was very strong. After that you went further. You saw a nice flower.#Will you pick the flower or go further?#pick#go#0#0#10#0##creature
+pick#The flower was very poisonous, you dead####0#0#0#0###
+go#You went further and came out from a forest, had a little walk and returned home. You won the game!####0#0#0#0###
+calm down# You came to it and started a conversation. The creature turned to be very friendly. You became friends with it.The creature saw you off from a forest and you had an idea of styling it in a village#Will you settle it down or say goodbye?#settle#goodbuy#0#0#0#25###
+settle#The creature helped everybody in a village and became a nice villager. You were proud of your decision. You won!####0#0#0#15###
+goodbye#You said goodbye to the creature, but sometimes you visit it. You won the game!####0#0#0#0###
+continue#You continued your way and came to a fork#Will you take left or right paths?#left#right#0#0#0#0###
+left#You took left paths, but then you saw a bird stack in a trap.#Will you save it?#save#do not save#0#0#0#0###
+save#You saved the bird. After that you went a very long way and saw a cave.#Will you enter it?#enter#not enter#1#0#15#40#arrow##
+enter#You entered the cave, combated and got out of the cave full of gold####0#0#0#0#gold#snake
+not enter#you came from a forest, nothing changed. You won!####0#0#0#0###
+do not save#You decided not to save the bird, when suddenly you were attacked by hunter. You combated the hunter, but then couldn't find the way from a forest and stayed here for hours. Then you saw 2 paths: light one and dark one.# Which path will you take?#light#dark#0#-20#0#0##hunter
+light#You came to a new place, so explore it in the next adventure! You won the game####0#0#0#5###
+dark#You went to the meadow, which is a long way from home, but at least you know the way. It will take you another hour to get home. Finally, you will get home. You won!####0#0#0#0###
+right#You chose the right pass, during your walk you find an apple tree and took some apples. Then you walked a little and saw an old bridge that will be a faster way of crossing the river.#Will you cross the bridge or go on foot?#cross#go on foot#0#0#0#0#apples##
+cross# The bridge was too old and fell down once you stepped in. Unfortunately you couldn't swim and dead.####0#0#0#0###
+go on foot#You decided to go on foot and finally came home. You won!####0#0#0#0###
+ignore# You ignored these sounds and went another way. You found very attractive mushrooms.#Will you taste them?#taste#notaste#-1#0#0#0###
+taste# You dead####0#0#0#0###
+notaste# You decided not to eat them. You are going further. Suddenly you feel something under your feet. It is a map.#Will you take it?#take map#no map#0#0#0#0###
+no map# You came to a maze, you were trying to find the way out, but no success. You saw a gnome established in thorns# Will you cut turns and save snow or leave?#cut#leave#0#0#0#0###
+cut# You helped him, for this he showed you a way from a maze. After that you ran home. You won!####0#0#0#0###
+leave# You didn't help him and dead in this maze.####0#0#0#0###
+take map#You took the map then had a long walk. You came into a maze. Luckily you had a map. So you were following the map. On the numerous turn you were attacked by ogre. After that you came from a maze and saw a portal.#Will you step in a portal or come home?#step in#come home#0#0#0#0#map#ogre
+step in#It was a magical portal and you came for a new location, next part of this adventure will come soon. You won!####0#0#0#0###
+come home#Finally you got home to your usual life. You won!####0#0#0#0###

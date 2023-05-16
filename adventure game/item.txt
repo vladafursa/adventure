@@ -1,0 +1,6 @@
+poition#0#1#0
+raincoat#10#0#0
+arrow#0#0#40
+gold#0#0#0
+apples#20#0#0
+map#0#0#0
